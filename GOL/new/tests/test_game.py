@@ -1,6 +1,6 @@
-from game import Game
-from grid import Grid
-from GOL.new.rules import birth_rule, lonely_death_rule, stay_alive_rule, over_populate_rule
+from ..game import Game
+from ..grid import Grid
+from ..rules import birth_rule, lonely_death_rule, stay_alive_rule, over_populate_rule
 
 RULES = [birth_rule, lonely_death_rule, stay_alive_rule, over_populate_rule]
 

@@ -1,4 +1,4 @@
-from rules import stay_alive_rule
+from ..rules import stay_alive_rule
 
 
 def test_stay_alive_rule_with_alive_cell_and_two_live_neighbors():

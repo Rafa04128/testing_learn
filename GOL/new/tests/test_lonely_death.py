@@ -1,4 +1,4 @@
-from GOL.new.rules import lonely_death_rule
+from ..rules import lonely_death_rule
 
 
 def test_lonely_death_rule_with_alive_cell_and_one_live_neighbor():

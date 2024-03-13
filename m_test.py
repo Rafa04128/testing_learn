@@ -11,8 +11,8 @@ def test_sum_values():
     assert add_few_values(1, 2, 3, 4, 5) == 15  # 1 + 2 + 3 + 4 + 5 = 15
     assert add_few_values(10, 20, 30) == 60  # 10 + 20 + 30 = 60
     assert add_few_values(5, 5, 5, 5, 5, 5, 5) == 35  # 5 + 5 + 5 + 5 + 5 + 5 + 5 = 30
-
-class TestAttraction(unittest.TestCase):
+#This was never finished.
+"""class TestAttraction(unittest.TestCase):
 
     def test_attraction_with_sun(self):
         # Create instances of AttractionClass or your class with the attraction method
@@ -38,4 +38,4 @@ class TestAttraction(unittest.TestCase):
 
         # Add more assertions if needed based on your specific requirements
 
-    # Add more test cases as needed
+    # Add more test cases as needed"""

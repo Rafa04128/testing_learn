@@ -1,7 +1,7 @@
-from typing import Callable
-from grid import Grid
+from typing import Callable, Union
+from .grid import Grid
 
-type Rule = Callable[[int, int], int | None]
+Rule = Callable[[int, int], Union[int, None]]
 
 class Game:
     def __init__(self, grid: Grid, rules: list[Rule] | None = None):

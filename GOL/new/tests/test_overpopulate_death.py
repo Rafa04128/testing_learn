@@ -1,4 +1,4 @@
-from rules import over_populate_rule
+from ..rules import over_populate_rule
 
 
 def test_over_populate_rule_with_alive_cell_and_four_live_neighbors():

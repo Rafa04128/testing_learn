@@ -1,4 +1,4 @@
-from GOL.new.rules import birth_rule
+from ..rules import birth_rule
 
 
 def test_birth_rule_with_dead_cell_and_three_live_neighbors():
