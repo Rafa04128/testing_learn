@@ -2,7 +2,7 @@ from visualizers.plot import visualize_plot
 from visualizers.console import visualize_console
 from rules import birth_rule, lonely_death_rule, stay_alive_rule, over_populate_rule
 from game import Game
-from grid import Grid
+from .grid import Grid
 
 ROWS = 20
 COLS = 20
